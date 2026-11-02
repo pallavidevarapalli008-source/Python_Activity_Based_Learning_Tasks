@@ -68,8 +68,8 @@ Patient Classification: Standard-cost patient
 Correction to the sample output above: The correct total concession is ₹870.00, the final payable is ₹5,130.00, and the patient classification remains Standard-cost patient.
 
 ## 7. Mermaid Flowchart Code
-'''mermaid
-flowchart TD
+```mermaid
+
     A([Start]) --> B[/Input patient name, age and charges/]
     B --> C{Age and charges valid?}
     C -- No --> D[Display invalid input]
@@ -96,5 +96,5 @@ flowchart TD
     R --> T
     S --> T
     T --> Z
-    '''
+    ```
 
