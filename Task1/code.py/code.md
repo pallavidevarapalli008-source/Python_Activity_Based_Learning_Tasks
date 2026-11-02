@@ -70,6 +70,7 @@ Correction to the sample output above: The correct total concession is ₹870.00
 ## 7. Mermaid Flowchart Code
 ```
 
+flowchart TD
     A([Start]) --> B[/Input patient name, age and charges/]
     B --> C{Age and charges valid?}
     C -- No --> D[Display invalid input]
@@ -96,6 +97,9 @@ Correction to the sample output above: The correct total concession is ₹870.00
     R --> T
     S --> T
     T --> Z
+
+    
+   
 
     ```
 
